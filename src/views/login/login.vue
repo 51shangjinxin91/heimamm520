@@ -1,6 +1,14 @@
 <template>
-    <div class="login.box">
-        <div class="form-box"></div>
+    <div class="login-box">
+        <!-- 表单容器 -->
+        <div class="form-box">
+            <!-- 标题 -->
+            <div class="title-box">
+                <span>黑马面面</span>
+                <i></i>
+                <span>用户登录</span>
+            </div>
+        </div>
         <img class="login-pic" src="../../assets/login_banner_ele.png" alt="">
     </div>
 </template>
@@ -22,13 +30,14 @@ export default {
     justify-content: space-around;
     // 背景线性渐变
     background: linear-gradient(225deg,rgba(20,147,250,1),rgba(1,198,250,1));
-    .from-box {
+    height: 100%;
+    .form-box {
         width: 478px;
         height: 550px;
         background: #f5f5f5;
     }
     .login-pic {
-        
+
     }
 }
 </style>
