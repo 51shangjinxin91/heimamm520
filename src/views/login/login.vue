@@ -4,9 +4,9 @@
         <div class="form-box">
             <!-- 标题 -->
             <div class="title-box">
-                <span>黑马面面</span>
+                <span class="title">黑马面面</span>
                 <i></i>
-                <span>用户登录</span>
+                <span class="sub-title">用户登录</span>
             </div>
         </div>
         <img class="login-pic" src="../../assets/login_banner_ele.png" alt="">
