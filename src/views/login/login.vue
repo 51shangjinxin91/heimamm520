@@ -4,6 +4,7 @@
         <div class="form-box">
             <!-- 标题 -->
             <div class="title-box">
+                <img src="../../assets/login-logo.png" alt="">
                 <span class="title">黑马面面</span>
                 <i></i>
                 <span class="sub-title">用户登录</span>
@@ -35,6 +36,33 @@ export default {
         width: 478px;
         height: 550px;
         background: #f5f5f5;
+        padding: 44px;
+        box-sizing: border-box;
+        // 标题
+        .title-box {
+            display: flex;
+            align-items: center;
+            img {
+                // emmet语法
+                // w22+h17+mr16
+                width: 22px;
+                height: 17px;
+                width: 16px;
+            }
+            .title {
+                font-size: 24px;
+                margin-right: 14px;
+            }
+            i {
+                width: 1px;
+                height: 28px;
+                margin-right: 12px;
+                background-color: #c7c7c7;
+            }
+            .sub-title {
+                font-size: 22px;
+            }
+        }
     }
     .login-pic {
 
